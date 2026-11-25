@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>نرجع لكم قريبًا · الجواد الذكي</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#0b0c0f; --ink:#eef1f6; --muted:#a3abb9; --blue:#3b8cff; --gold:#e9b546; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { height: 100%; }
+  body { background: radial-gradient(120% 80% at 50% 0%, #15203a 0%, var(--bg) 60%); color: var(--ink); font-family: "Readex Pro", system-ui, sans-serif; display: grid; place-items: center; padding: 24px 16px; text-align: center; }
+  .card { max-width: 520px; width: 100%; padding: 36px 26px; border: 1px solid rgba(255,255,255,.09); border-radius: 26px; background: rgba(255,255,255,.035); backdrop-filter: blur(8px); }
+  .icon { font-size: 54px; line-height: 1; margin-bottom: 18px; display: inline-block; animation: spin 6s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { .icon { animation: none; } }
+  h1 { font-size: clamp(26px, 7vw, 34px); font-weight: 700; margin-bottom: 12px; }
+  h1 span { color: var(--blue); }
+  p { color: var(--muted); font-size: 17px; line-height: 1.9; }
+  .back { margin-top: 18px; display: inline-block; padding: 10px 18px; border-radius: 999px; border: 1px solid rgba(233,181,70,.45); color: var(--gold); font-weight: 600; font-size: 15px; }
+  .names { margin-top: 26px; font-size: 14px; color: var(--muted); }
+  .names b { color: var(--ink); font-weight: 600; }
+  a { color: var(--ink); }
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="icon" aria-hidden="true">⚙️</div>
+    <h1>الموقع <span>تحت الصيانة</span></h1>
+    <p>نشتغل على تحسينات في الموقع، ونرجع لكم بكرة إن شاء الله.<br>شكرًا على صبركم 🤍</p>
+    <span class="back">نرجع بكرة إن شاء الله</span>
+    <p class="names"><b>الجواد الذكي</b> · <b>لأجل المهدي</b></p>
+  </main>
+</body>
+</html>
